@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dodavanje slike</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">  
+         
+    </head>
+    <body>
+            <div class="container mb-2 p-4 border">
+                <from>
+                    <h1 class="text-center">Dodavanje slika za dodajnedriblaj.com</h1>
+                    <label for="link">Link od slike</label>
+                    <input type="text" id="link" class="form-control" placeholder="Link od slike" required>
+                    <label for="text">Tekst</label>
+                    <textarea placeholder="Tekst" class="form-control" id="text" required></textarea>
+                    <button class="btn btn-primary mt-2 p-2" onclick="Posalji()">Izmeni</button> 
+                </from>
+            </div>
+            <div class="container">
+                <div class="opacity-div">
+
+                </div>
+                <!-- OVDE U OVAJ 'P' DODAJEŠ TEKST VESTI -->
+                <p class="text-slike" id="text-vesti">
+                    Zvanično dandgadgaadgadgadgdgagdagdagda ad g nažalost Novak Đoković neće moći da se bori za titulu
+                </p>
+                <!-- -->
+                
+                <img src="slike/brandmark.png" class="baner shadow">
+    
+                <!-- OVDE UZMEŠ I U 'SRC' KOPIRAŠ LINK SLIKE, A MOŽEŠ I DA JE SKINEŠ U FOLDER 'SLIKE' -->
+                <img src="https://images.hgmsites.net/hug/milan-red-supercar_100664285_h.jpg" id="slika" class="slika">       
+                <!-- -->
+            </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
