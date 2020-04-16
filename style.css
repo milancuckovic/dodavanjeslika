@@ -20,6 +20,7 @@
     /* OVDE MOŽEŠ DA MENJAŠ VELIČINU SLOVA AKO JE PREVELIKA */
     font-size: 30pt;
     /* */
+    text-shadow: 1px 1px 4px black;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
