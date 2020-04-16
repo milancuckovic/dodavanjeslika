@@ -6,3 +6,7 @@ function Posalji(){
     textvesti.innerHTML=text.value;
     srcslike.src = link.value;
 }
+function PromenaFonta(selectTag) {
+    var listValue = selectTag.options[selectTag.selectedIndex].text;
+    textvesti.style.fontSize = listValue;
+}
